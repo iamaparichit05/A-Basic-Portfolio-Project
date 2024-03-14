@@ -1,0 +1,45 @@
+/* body background image */
+body {
+    background-image: url('contactme.avif');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Heading style */
+.text-center {
+    color: rgb(25, 123, 141); /* Text color */
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Change font family */
+    
+}
+
+
+/* Form label style */
+.form-group label {
+    color: rgb(4, 121, 137); /* Label color */
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* Form input style */
+.form-control {
+    border-radius: 10px; /* Rounded corners for inputs */
+}
+
+
+/* Submit button style */
+.btn {
+    background-color: rgb(18, 109, 112); /* Button color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding to the button */
+    font-weight: bolder;
+    width:20;
+}
+
+.btn:hover {
+    background-color: rgb(229, 241, 241); /* Darker color on hover */
+}
+
